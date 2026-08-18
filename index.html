@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AnimeVerse | Anime Store</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= TOP BAR ================= -->
+
+    <div class="top-bar">
+        ✨ Free shipping on orders over $50!
+    </div>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="nav-container">
+
+            <!-- Logo -->
+
+            <a href="#" class="logo">
+                <strong>ANIME<span>VERSE</span></strong>
+                <small>アニメストア</small>
+            </a>
+
+
+            <!-- Search -->
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search for anime, figures, merch..."
+                >
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+            </div>
+
+
+            <!-- Actions -->
+
+            <div class="nav-actions">
+
+                <button>
+                    <i class="fa-regular fa-heart"></i>
+                    <small>Wishlist</small>
+                </button>
+
+                <button>
+                    <i class="fa-regular fa-user"></i>
+                    <small>Account</small>
+                </button>
+
+                <button id="cartButton" class="cart-button">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    <span id="cartCount">0</span>
+
+                    <small>Cart</small>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Navigation -->
+
+        <nav class="navigation">
+
+            <a href="#" class="active">Home</a>
+
+            <a href="#products">Shop
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+
+            <a href="#products">Figures</a>
+
+            <a href="#categories">Clothing</a>
+
+            <a href="#categories">Accessories</a>
+
+            <a href="#categories">Home & Decor</a>
+
+            <a href="#products">New Arrivals</a>
+
+            <a href="#products" class="sale">Sale</a>
+
+            <a href="#footer">Blog</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="hero-text">
+
+                <p class="hero-small">
+                    DISCOVER YOUR
+                </p>
+
+                <h1>
+                    <span>ANIME</span> WORLD
+                </h1>
+
+                <p class="hero-description">
+                    Premium anime merchandise for true fans.
+                    Figures, clothing, accessories and more!
+                </p>
+
+                <a href="#products" class="hero-btn">
+                    SHOP NOW
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+
+                <div class="fans">
+
+                    <div class="avatars">
+
+                        <span>👨🏻</span>
+                        <span>👩🏻</span>
+                        <span>👨🏽</span>
+                        <span>👩🏽</span>
+
+                    </div>
+
+                    <p>
+                        Join 50,000+ anime fans
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <!-- Put your hero anime image here -->
+
+                <img
+                    src="images/hero.jpg"
+                    alt="Anime character"
+                >
+
+            </div>
+
+        </div>
+
+
+        <!-- Slider dots -->
+
+        <div class="slider-dots">
+
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="features">
+
+        <div class="feature">
+
+            <i class="fa-solid fa-truck-fast"></i>
+
+            <div>
+                <strong>FREE SHIPPING</strong>
+                <small>On orders over $50</small>
+            </div>
+
+        </div>
+
+
+        <div class="feature">
+
+            <i class="fa-solid fa-rotate"></i>
+
+            <div>
+                <strong>EASY RETURNS</strong>
+                <small>30 day return policy</small>
+            </div>
+
+        </div>
+
+
+        <div class="feature">
+
+            <i class="fa-solid fa-shield-halved"></i>
+
+            <div>
+                <strong>100% SECURE</strong>
+                <small>Secure checkout</small>
+            </div>
+
+        </div>
+
+
+        <div class="feature">
+
+            <i class="fa-solid fa-headset"></i>
+
+            <div>
+                <strong>24/7 SUPPORT</strong>
+                <small>We're here to help</small>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= NEW ARRIVALS ================= -->
+
+    <section class="section" id="products">
+
+        <div class="section-title">
+
+            <div>
+                <span>NEW ARRIVALS</span>
+            </div>
+
+            <a href="#">
+                View All
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <div class="products-grid">
+
+
+            <!-- Product -->
+
+            <div class="product-card"
+                data-name="Naruto Uzumaki"
+                data-price="49.99">
+
+                <div class="product-image">
+
+                    <span class="badge">
+                        NEW
+                    </span>
+
+                    <button class="wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <img
+                        src="/img/naruto.png"
+                        alt="Naruto Figure"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Naruto Uzumaki</h3>
+
+                    <p>Six Paths Figure</p>
+
+                    <strong>$49.99</strong>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product -->
+
+            <div class="product-card"
+                data-name="Monkey D Luffy"
+                data-price="54.99">
+
+                <div class="product-image">
+
+                    <button class="wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <img
+                        src="/img/luffy.png"
+                        alt="Luffy Figure"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Monkey D. Luffy</h3>
+
+                    <p>Gear 5 Figure</p>
+
+                    <strong>$54.99</strong>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product -->
+
+            <div class="product-card"
+                data-name="Tanjiro Kamado"
+                data-price="44.99">
+
+                <div class="product-image">
+
+                    <span class="discount">
+                        -10%
+                    </span>
+
+                    <button class="wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <img
+                        src="/img/Tanjiro.png"
+                        alt="Tanjiro Figure"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Tanjiro Kamado</h3>
+
+                    <p>Hinokami Figure</p>
+
+                    <strong>$44.99</strong>
+
+                    <del>$49.99</del>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product -->
+
+            <div class="product-card"
+                data-name="Satoru Gojo"
+                data-price="59.99">
+
+                <div class="product-image">
+
+                    <button class="wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <img
+                        src="/img/gojo.png"
+                        alt="Gojo Figure"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Satoru Gojo</h3>
+
+                    <p>Jujutsu Kaisen Figure</p>
+
+                    <strong>$59.99</strong>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product -->
+
+            <div class="product-card"
+                data-name="Akatsuki Cloud Hoodie"
+                data-price="39.99">
+
+                <div class="product-image">
+
+                    <span class="discount">
+                        -20%
+                    </span>
+
+                    <button class="wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <img
+                        src="/img/Akatsuki.png"
+                        alt="Anime Hoodie"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Akatsuki Cloud</h3>
+
+                    <p>Anime Hoodie</p>
+
+                    <strong>$39.99</strong>
+
+                    <del>$49.99</del>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product -->
+
+            <div class="product-card"
+                data-name="One Piece Poster"
+                data-price="14.99">
+
+                <div class="product-image">
+
+                    <button class="wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <img
+                        src="/img/post.png"
+                        alt="One Piece Poster"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>One Piece Wanted</h3>
+
+                    <p>Poster Set</p>
+
+                    <strong>$14.99</strong>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CATEGORIES ================= -->
+
+    <section class="section" id="categories">
+
+        <div class="section-title">
+
+            <div>
+                <span>SHOP BY CATEGORY</span>
+            </div>
+
+        </div>
+
+
+        <div class="category-grid">
+
+            <div class="category-card">
+
+                <img
+                    src="/img/layla.png"
+                    alt="Figures"
+                >
+
+                <div>
+                    <h3>FIGURES</h3>
+                    <p>120+ items</p>
+                </div>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <img
+                    src="/img/angela.png"
+                    alt="Clothing"
+                >
+
+                <div>
+                    <h3>CLOTHING</h3>
+                    <p>80+ items</p>
+                </div>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <img
+                    src="/img/kagura.png"
+                    alt="Accessories"
+                >
+
+                <div>
+                    <h3>ACCESSORIES</h3>
+                    <p>95+ items</p>
+                </div>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <img
+                    src="/img/lenslot.png"
+                    alt="Home Decor"
+                >
+
+                <div>
+                    <h3>HOME & DECOR</h3>
+                    <p>60+ items</p>
+                </div>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <img
+                    src="/img/floren.png"
+                    alt="New Arrivals"
+                >
+
+                <div>
+                    <h3>NEW ARRIVALS</h3>
+                    <p>View all</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= BEST SELLERS ================= -->
+
+    <section class="section">
+
+        <div class="section-title">
+
+            <div>
+                <span>BEST SELLERS</span>
+            </div>
+
+            <a href="#">
+                View All
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <div class="products-grid">
+
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <button class="wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <img
+                        src="/img/levi.png"
+                        alt="Levi Figure"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Levi Ackerman</h3>
+                    <p>1/8 Scale Figure</p>
+                    <strong>$69.99</strong>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <button class="wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <img
+                        src="/img/nana.png"
+                        alt="Mikasa Figure"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Mikasa Ackerman</h3>
+                    <p>Nendoroid</p>
+                    <strong>$49.99</strong>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <button class="wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <img
+                        src="/img/rin.png"
+                        alt="Itachi Figure"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Itachi Uchiha</h3>
+                    <p>Sitting Figure</p>
+                    <strong>$54.99</strong>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <button class="wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <img
+                        src="/img/fanny.png"
+                        alt="Goku Figure"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Dragon Ball Z</h3>
+                    <p>Goku Figure</p>
+                    <strong>$45.99</strong>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <button class="wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <img
+                        src="/img/louvi.png"
+                        alt="Nezuko Plush"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Demon Slayer</h3>
+                    <p>Nezuko Plush</p>
+                    <strong>$24.99</strong>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <button class="wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <img
+                        src="/img/shirt.png"
+                        alt="Gojo Shirt"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Jujutsu Kaisen</h3>
+                    <p>Gojo T-Shirt</p>
+                    <strong>$29.99</strong>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= NEWSLETTER ================= -->
+
+    <section class="newsletter">
+
+        <div>
+
+            <h2>STAY IN THE LOOP</h2>
+
+            <p>
+                Get the latest updates on new arrivals,
+                sales, and exclusive offers!
+            </p>
+
+        </div>
+
+
+        <form id="newsletterForm">
+
+            <input
+                type="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <button>
+                SUBSCRIBE
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer id="footer">
+
+        <div class="footer-grid">
+
+
+            <div class="footer-brand">
+
+                <h2>
+                    ANIME<span>VERSE</span>
+                </h2>
+
+                <small>アニメストア</small>
+
+                <p>
+                    Your ultimate destination for premium
+                    anime merchandise. Live your anime passion!
+                </p>
+
+                <div class="socials">
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <h3>SHOP</h3>
+
+                <a href="#">All Products</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">Best Sellers</a>
+                <a href="#">Sale</a>
+                <a href="#">Gift Cards</a>
+
+            </div>
+
+
+            <div>
+
+                <h3>CUSTOMER SERVICE</h3>
+
+                <a href="#">Contact Us</a>
+                <a href="#">Shipping Info</a>
+                <a href="#">Returns & Exchanges</a>
+                <a href="#">FAQ</a>
+                <a href="#">Track Order</a>
+
+            </div>
+
+
+            <div>
+
+                <h3>ABOUT</h3>
+
+                <a href="#">About Us</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+
+            </div>
+
+
+            <div>
+
+                <h3>WE ACCEPT</h3>
+
+                <div class="payments">
+
+                    <span>VISA</span>
+                    <span>MC</span>
+                    <span>PAY</span>
+                    <span>ABA</span>
+                    <span> Pay</span>
+                    <span>G Pay</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 AnimeVerse. All rights reserved.
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= CART SIDEBAR ================= -->
+
+    <div class="cart-sidebar" id="cartSidebar">
+
+        <div class="cart-header">
+
+            <h2>
+                Your Cart
+            </h2>
+
+            <button id="closeCart">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+
+        <div id="cartItems">
+
+            <p class="empty">
+                Your cart is empty.
+            </p>
+
+        </div>
+
+
+        <div class="cart-bottom">
+
+            <div>
+                <span>Total</span>
+                <strong id="cartTotal">$0.00</strong>
+            </div>
+
+            <button id="checkout">
+                CHECKOUT
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= OVERLAY ================= -->
+
+    <div class="overlay" id="overlay"></div>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
